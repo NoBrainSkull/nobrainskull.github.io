@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="assets/logo.png" />
+		<title>Club de Jujutsu Capinghem</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          cursor: {
+            'subscribe': 'url(assets/form.cur), pointer',
+          }
+        }
+      }
+    }
+  </script>
+	</head>
+	<body>
+		<!-- Top bar -->
+		<div class="flex flex-col items-center">
+			<nav class=""> 
+				<div id="nav-wrap" class="fixed z-30 w-full h-25 top-0 left-0 px-2 py-2 flex justify-center">
+					<div class="max-w-5xl w-full">
+						<div class="flex gap-4 items-center">
+							<img src="assets/logo.svg" class="w-12 h-12"/>
+							<div class="flex-grow grid grid-rows-3 font-bold text-xs leading-4">
+								<span>JUJUTSU</span>
+								<span>TRADITIONNEL</span>
+								<span>CAPINGHEM</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="h-screen w-full absolute z-0 top-0 left-0">
+					<div class="absolute z-0 h-full w-full bg-[url('assets/hero_cover.webp')] bg-no-repeat bg-center bg-cover"></div>
+					<div class="absolute z-0 h-full w-full bg-white opacity-40"></div>
+				</div>
+			</nav>
+
+			<!-- Hero -->
+			<div class="h-screen w-full">
+				<div class="absolute w-full top-0 left-0 flex flex-col h-screen px-2 py-2 justify-between items-center">
+					<div class="h1"></div>
+
+					<div class="grid grid-rows-3 self-center justify-content-center">
+						<div class="text-center text-xl self-end">Capinghem</div>
+						<div class="text-center text-7xl font-black">JUJUTSU</div>
+						<div class="flex w-full text-xs justify-center items-center self-start gap-4">
+							<span class="">club traditionnel</span> 
+							<svg height="10" width="10">
+								<circle cx="5" cy="5" r="3" fill="black" />
+							</svg>
+							<span>sans compétitions</span>
+						</div>
+					</div>
+
+					<div class="grid grid-rows-2 text-center justify-items-center items-end">
+						<div class="text-center text-xs mb-2">Nous sommes un club associatif accessible à tous</div>
+						<img src="assets/scroll.svg" class="animate-bounce w-6 h-6" />
+					</div>
+				</div>
+			</div>
+
+			<div class="container flex flex-col items-center border">
+				<!-- Forum des asso -->
+				<div class="container max-w-5xl">
+					<div class="h-screen flex flex-col justify-center gap-20 py-10" style="max-height:50rem;">
+						<div class="flex justify-center items-center w-full">
+							<h2 class="w-80 font-bold text-5xl text-center uppercase">Au Forum des Asso</h2>
+						</div>
+						<p class="px-8">
+						Vous nous découvrez probablement au forum des associations de Capinghem !<br/><br/>
+
+						Ravis de vous rencontrer ! Nous sommes le club de Jujutsu Traditionnel de Capinghem et nous venons tout juste de démarrer.<br/><br/>
+
+						Après 25 ans de pratique du Jujutsu, nous ouvrons un club pour proposer au village la pratique de notre art-martial à but non-compétitif. Passionnés et bénévoles, nous serions heureux que vous nous rejoingnez dans l’aventure.<br/><br/>
+
+						N’hésitez pas à venir discuter avec nous ou à nous <a class="underline" target="_blank" href="mailto:club@jujutsu-capinghem.org">contacter en ligne.</a>
+
+						<br>
+						<br>
+						Raphaële et Sorian
+						</p>
+
+					</div>
+				</div>
+
+				<!-- JPO -->
+				<a class="w-full" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfOu4LJpdCjBQalWFcVyAlbtzjx1Zo7AbhrVXlANasX3tZ8PQ/viewform">
+					<div class="cursor-[url(assets/form.cur),pointer] h-screen w-full bg-[url('assets/jpo_children_mobile.webp')] md:bg-[url('assets/jpo_children_desktop.webp')] bg-cover bg-center bg-no-repeat" style="max-height: 50rem;">
+						<div class="container max-w-5xl md:px-20 py-20 column-1 h-full flex flex-col justify-between">
+							<div class="">
+								<div class="w-fit text-white bg-black px-2 mx-2 uppercase text-5xl font-bold">portes</div>
+								<div class="w-fit text-white bg-black px-2 mx-2 uppercase text-5xl font-bold">ouvertes</div>
+								<div class="w-fit mt-4 text-white bg-black px-2 mx-2 uppercase text-xl">14 et 21 Septembre</div>
+								<div class="w-fit text-white bg-black px-2 mx-2 uppercase text-xl">de 18h à 20h30</div>
+							</div>
+							<div class="mx-4 md:hidden">
+								<div class="hover:bg-black hover:text-white cursor-pointer w-full bg-white text-black uppercase border border-2 border-black py-2 text-center font-bold text-xl">
+									je viens essayer
+								</div>
+							</div>
+						</div>
+					</div>
+					<a>
+
+				<!-- details -->
+				<div class="container max-w-5xl px-8 py-20">
+					<div class="uppercase text-4xl font-bold my-20">Le<br/>Jujutsu</div>
+					<div class="w-full flex flex-wrap gap-6 justify-around items-center">
+						<div class="w-full md:w-1/2">
+							<p>
+							Le Jujutsu est un art-martial d’origine japonaise. Il était pratiqué sur les champs de bataille lorsque les samourais se trouvaient désarmés. Reposant sur la souplesse, il vise à retourner la force de son opposant contre lui et permet ainsi au faible de vaincre le fort.
+							</p>
+							<br/>
+							<p>Le Club de Jujutsu de Capinghem se forme autour de bénévoles pour vous proposer une progression sans compétition, adaptée aux enfants, adultes et vétérans.
+							</p>
+							<br/>
+						</div>
+
+						<div class="w-full md:w-2/6 h-full text-right flex flex-col gap-8 text-slate-700 uppercase">
+							<div class="border-black border-b">self defense</div>
+							<div class="border-black border-b">kata</div>
+							<div class="border-black border-b">renforcement du corps</div>
+							<div class="border-black border-b">combat au sol</div>
+							<div class="border-black border-b">déplacements</div>
+							<div class="border-black border-b">relaxation</div>
+						</div>
+					</div>
+
+
+
+					<div class="uppercase text-4xl font-bold mt-20">Les<br/>entraînements</div>
+
+					<div class="w-full flex flex-col justify-content-between md:flex-row gap-8 my-10 md:py-20">
+						<div class="w-full h-full grid grid-rows-2 gap-8 px-4">
+							<div class="flex">
+								<div class="flex-grow grid grid-rows-2">
+									<div class="font-bold text-xl">ENFANTS</div>
+									<div class="text-slate-500">à partir de 5 ans - 80€/an</div>
+								</div>
+								<div class="flex-shrink grid grid-rows-2 text-right">
+									<div class="text-slate-500">JEUDI</div>
+									<div class="font-bold text-xl">18h-19h</div>
+								</div>
+							</div>
+							<div class="flex">
+								<div class="flex-grow grid grid-rows-2">
+									<div class="font-bold text-xl">ADULTES</div>
+									<div class="text-slate-500">de tout âge - 100€/an</div>
+								</div>
+								<div class="flex-shrink grid grid-rows-2 text-right">
+									<div class="text-slate-500">JEUDI</div>
+									<div class="font-bold text-xl">19h-20h30</div>
+								</div>
+							</div>
+							<div class="hidden md:block mt-20 flex flex-col gap-8 self-end">
+								<div class="flex w-full gap-8 items-center">
+									<div class="w-min flex-shrink text-xl">Prochaine séance</div>
+									<div class="flex-grow font-bold text-3xl text-right">14 Septembre</div>
+								</div>
+								<div class="hover:bg-black hover:text-white cursor-pointer mt-4 w-full bg-white text-black uppercase border border-2 border-black py-2 text-center font-bold">
+									je viens essayer
+								</div>
+							</div>
+						</div>
+
+						<div class="flex flex-col md:flex-grow h-96">
+							<div class="w-full text-right text-xs text-slate-400">Salle Renaissance - 6, rue d'Ennetières, 59160 Capinghem</div>
+							<a class="h-full" target="_blank" href="https://www.google.com/maps/place/6+Rue+d'Enneti%C3%A8res,+59160+Capinghem/@50.6432801,2.9600429,17z/data=!4m6!3m5!1s0x47dcd57e79272e91:0x7166f0574617c706!8m2!3d50.6440743!4d2.960754!16s%2Fg%2F11tcjrryld?entry=ttu">
+								<div class="flex-grow h-full cursor-[url(assets/pin.cur),pointer] bg-[url('assets/map.png')] bg-no-repeat bg-center bg-cover"></div>
+							</a>
+						</div>
+					</div>
+
+					<div class="md:hidden flex mb-20 w-full items-center">
+						<div class="w-min flex-shrink text-xl">Prochaine séance</div>
+						<div class="flex-grow font-bold text-3xl text-right">14 Septembre</div>
+					</div>
+				</div>
+
+
+				<!-- JPO -->
+				<a class="w-full" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfOu4LJpdCjBQalWFcVyAlbtzjx1Zo7AbhrVXlANasX3tZ8PQ/viewform">
+					<div class="cursor-[url(assets/form.cur),pointer] h-screen w-full bg-[url('assets/jpo_adults_mobile.webp')] sm:bg-[url('assets/jpo_adults_desktop.webp')] bg-cover bg-center bg-no-repeat" style="max-height: 50rem;">
+						<div class="container max-w-5xl md:px-20 py-20 column-1 h-full flex flex-col justify-between">
+							<div class="">
+								<div class="w-fit text-white bg-black px-2 mx-2 uppercase text-5xl font-bold">portes</div>
+								<div class="w-fit text-white bg-black px-2 mx-2 uppercase text-5xl font-bold">ouvertes</div>
+								<div class="w-fit mt-4 text-white bg-black px-2 mx-2 uppercase text-xl">14 et 21 Septembre</div>
+								<div class="w-fit text-white bg-black px-2 mx-2 uppercase text-xl">de 18h à 20h30</div>
+							</div>
+							<div class="mx-4 md:place-self-center">
+								<div class="hover:bg-black hover:text-white cursor-pointer md:hidden w-full px-8 bg-white text-black uppercase border border-4 border-black py-2 text-center font-bold text-xl">
+									je viens essayer
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<!-- Footer -->
+				<div class="relative h-96 bg-black w-full flex flex-col items-center justify-center gap-8">
+					<div class="flex gap-4 items-center">
+						<svg color="white" width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="2" y="2" width="66" height="66" stroke="currentColor" stroke-width="2"/>
+							<rect x="35" y="9.65527" width="16.6102" height="16.6102" transform="rotate(45 35 9.65527)" fill="currentColor"/>
+							<rect x="21.4004" y="23.2548" width="16.6102" height="16.6102" transform="rotate(45 21.4004 23.2548)" fill="currentColor"/>
+							<rect x="35" y="36.8546" width="16.6102" height="16.6102" transform="rotate(45 35 36.8546)" fill="currentColor"/>
+							<rect x="48.5996" y="23.2548" width="16.6102" height="16.6102" transform="rotate(45 48.5996 23.2548)" fill="currentColor"/>
+							<rect x="27.9287" y="35" width="10" height="10" transform="rotate(-45 27.9287 35)" fill="currentColor"/>
+						</svg>
+						<div class="flex-grow text-white grid grid-rows-3 font-bold text-xl leading-6">
+							<span>JUJUTSU</span>
+							<span>TRADITIONNEL</span>
+							<span>CAPINGHEM</span>
+						</div>
+					</div>
+
+					<div class="flex justify-center items-center gap-6">
+						<a target="_blank" href="https://www.instagram.com/jujutsu_capinghem/">
+							<svg id="instagram" width="32" height="32" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M23.0888 32.4617C28.2652 32.4617 32.4616 28.2652 32.4616 23.0889C32.4616 17.9124 28.2652 13.7161 23.0888 13.7161C17.9123 13.7161 13.716 17.9124 13.716 23.0889C13.716 28.2652 17.9123 32.4617 23.0888 32.4617Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M2 32.4616V13.716C2 7.24544 7.24544 2 13.716 2H32.4616C38.9321 2 44.1776 7.24544 44.1776 13.716V32.4616C44.1776 38.9321 38.9321 44.1776 32.4616 44.1776H13.716C7.24544 44.1776 2 38.9321 2 32.4616Z" stroke="white" stroke-width="3"/>
+								<path d="M35.9764 10.2245L35.9998 10.1985" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</a>
+						<a target="_blank" href="https://www.instagram.com/jujutsu_capinghem/">
+							<svg id="facebook" width="32" height="32" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M44.1776 13.716V32.4616C44.1776 38.9321 38.9321 44.1776 32.4616 44.1776H13.716C7.24544 44.1776 2 38.9321 2 32.4616V13.716C2 7.24544 7.24544 2 13.716 2H32.4616C38.9321 2 44.1776 7.24544 44.1776 13.716Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M20.7456 44.1777C20.7456 37.1481 20.7456 30.1185 20.7456 23.0889C20.7456 17.9631 21.9172 13.7161 30.1184 13.7161" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M16.0592 25.4319H20.7456H30.1184" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</a>
+					</div>
+
+					<div class="absolute flex bottom-4 left-4 text-xs text-slate-500 gap-10">
+						<div class=""><a href="https://aejt-jjquero.com/" target="_blank">Club reconnu par l'AEJT</a></div>
+						<div class="">Mentions légales</div>
+						<div class="">Photo de Mats Sommervold, Kawê Rodrigues et Nathan Dumlao</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			window.onscroll = () => {
+				const nav = document.querySelector('#nav-wrap')
+				if(this.scrollY >= 100) {
+					nav.className = 'z-30 w-full h-25 fixed top-0 left-0 px-2 py-2 bg-white flex justify-center'
+				} else {
+					nav.className = 'z-30 w-full h-25 fixed top-0 left-0 px-2 py-2 flex justify-center'
+				}
+			}
+		</script>
+	</body>
+</html>
